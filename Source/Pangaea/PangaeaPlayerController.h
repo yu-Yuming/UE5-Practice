@@ -58,6 +58,9 @@ protected:
 	void OnTouchTriggered();
 	void OnTouchReleased();
 
+	/* Input Handlers for Attack action. */
+	void OnAttackPressed();
+
 private:
 	FVector CachedDestination;
 
